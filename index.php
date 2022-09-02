@@ -16,25 +16,25 @@
             <h1>account left</h1>
         </div><!-- close account-left -->
 
-        <div class="account">
-            <div class="form">
+        <div class="account-right">
+            <div class="form-area">
                 <form method="POST" action="">
                     <div class="group">
                         <input type="text" name="full_name" class="control" placeholder="Enter Full Name">
                     </div> <!-- close group -->
                     <div class="group">
                         <input type="email" name="email" class="control" placeholder="Enter Email...">
-                    </div>
+                    </div> <!-- close group -->
                     <div class="group">
                         <input type="password" name="password" class="control" placeholder="Enter Password">
-                    </div>
+                    </div> <!-- close group -->
                     <div class="group">
                         <label for="file" id="file-label">Choose image</label>
                         <input type="file" name="img" class="file" id="file">
-                    </div>
+                    </div> <!-- close group -->
                     <div class="group">
                         <input type="submit" name="signup" class="btn signup-btn" value="Create Account">
-                    </div>
+                    </div> <!-- close group -->
                 </form>
             </div><!-- close form area -->
         </div><!--close account-right -->
